@@ -6,8 +6,6 @@
 ![https://www.npmjs.com/package/react-ts-typewriter](https://img.shields.io/badge/npm-published-red)
 
 ![](/usage.gif)
-![](/usage.png)
-*(Yes is at easy as that)*
 
 React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. [Take a look in NPM](https://www.npmjs.com/package/react-ts-typewriter).
 
