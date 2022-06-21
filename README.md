@@ -1,7 +1,7 @@
 # How to use Typewriter component
 
 ```tsx
-import Typewriter from 'reacttypewriter';
+import Typewriter from 'react-ts-typewriter';
 
 export default function myComponent() {
     return (
@@ -13,7 +13,7 @@ export default function myComponent() {
 ```
 
 ```tsx
-import Typewriter from 'reacttypewriter';
+import Typewriter from 'react-ts-typewriter';
 
 export default function myComponent() {
     return (
