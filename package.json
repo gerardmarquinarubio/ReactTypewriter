@@ -1,8 +1,8 @@
 {
   "name": "react-ts-typewriter",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "React typewriter component written in TypeScript with React 18",
-  "main": "dist/Typewriter.jsx",
+  "main": "dist/Typewriter.js",
   "types": "dist/Typewriter.d.ts",
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     "url": "https://github.com/gerardmarquinarubio/ReactTypewriter/issues"
   },
   "scripts": {
-    "prepublish": "tsc"
+    "clean": "rm -rf dist",
+    "prepublish": "tsc && cp Typewriter.module.css dist/"
   },
   "homepage": "https://github.com/gerardmarquinarubio/ReactTypewriter#readme",
   "dependencies": {
