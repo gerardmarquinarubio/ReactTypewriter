@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/-typescript-blue) 
 ![](https://img.shields.io/badge/react-v18.2-%2361DBFB)
-![https://github.com/gerardmarquinarubio/ReactTypewriter/releases/tag/0.1.6](https://img.shields.io/badge/version-v0.1.6-green)
+![https://github.com/gerardmarquinarubio/ReactTypewriter/releases/tag/0.1.6](https://img.shields.io/badge/version-v0.1.7-green)
 ![https://www.npmjs.com/package/react-ts-typewriter](https://img.shields.io/badge/npm-published-red)
 
 ![](/usage.gif)
