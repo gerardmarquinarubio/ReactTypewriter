@@ -101,10 +101,13 @@ typings/
 
 # TernJS port file
 .tern-port
+
 test/
 npmtest/
-
 package-lock.json
 .DS_Store
 
-usage.gif
+*.gif
+*.jpg
+*.jpeg
+*.png
