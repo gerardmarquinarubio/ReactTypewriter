@@ -12,9 +12,10 @@ export interface ITypewriterProps {
     delay?: number;
     cursor?: boolean;
     onFinished?: Function;
+    onStart?: Function;
 }
 
-export default function Typewriter({text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true, onFinished = () => {}}: ITypewriterProps) {
+export default function Typewriter({text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true, onFinished = () => {}, onStart = () => {}}: ITypewriterProps) {
     
     const [currentStringIndex, setCurrentStringIndex] = useState(0);
     const [currentTextIndex, setCurrentTextIndex] = useState(0);

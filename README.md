@@ -56,7 +56,7 @@ How long (in ms) does the the typewriter wait after typing one character. *Defau
 
 > loop?: boolean = false
 
-Set to true if the typewriter should loop after finishing typing the word(s). *Defaults to false*.
+Set to true if the typewriter should loop after finishing typing the string(s). *Defaults to false*.
 
 > random?: number = 30
 
@@ -73,3 +73,7 @@ Set to false if the typewriter should not render a blinking cursor character at 
 > onFinished?: Function = () => void
 
 Callback function after Typewriter animation is complete, never triggers if <code>loop</code> is true. *Defaults to () => void*
+
+> onStart?: Function = () => void
+
+Callback function before Typewriter animation is started on each string. *Defaults to () => void*. 
