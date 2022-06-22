@@ -7,7 +7,7 @@
 
 ![](/usage.gif)
 
-React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. [Take a look in NPM](https://www.npmjs.com/package/react-ts-typewriter).
+React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. [Try on codesandbox.io](https://codesandbox.io/s/react-typewriter-example-mgyclf).
 
 ## Installation
 

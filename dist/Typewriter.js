@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Typewriter.module.css';
 const DEFAULT_MS = 30;
-export default function Typewriter({ text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true, onFinished = () => { } }) {
+export default function Typewriter({ text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true, onFinished = () => { }, onStart = () => { } }) {
     const [currentStringIndex, setCurrentStringIndex] = useState(0);
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     useEffect(() => {
