@@ -6,5 +6,6 @@ export interface ITypewriterProps {
     random?: number;
     delay?: number;
     cursor?: boolean;
+    onFinished?: Function;
 }
-export default function Typewriter({ text, speed, loop, random, delay, cursor }: ITypewriterProps): JSX.Element;
+export default function Typewriter({ text, speed, loop, random, delay, cursor, onFinished }: ITypewriterProps): JSX.Element;

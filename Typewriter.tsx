@@ -5,15 +5,16 @@ import styles from './Typewriter.module.css';
 const DEFAULT_MS = 30;
 
 export interface ITypewriterProps {
-    text: string | string[]; // text to display
-    speed?: number; // speed at wich it will type
-    loop?: boolean; // loop or not
-    random?: number; // randomness to apply to each keystroke 0 = no randomness
-    delay?: number; // delay in ms to wait after each text completion
-    cursor?: boolean; 
+    text: string | string[];
+    speed?: number;
+    loop?: boolean;
+    random?: number;
+    delay?: number;
+    cursor?: boolean;
+    onFinished?: Function;
 }
 
-export default function Typewriter({text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true}: ITypewriterProps) {
+export default function Typewriter({text, speed = DEFAULT_MS, loop = false, random = DEFAULT_MS, delay = DEFAULT_MS, cursor = true, onFinished = () => {}}: ITypewriterProps) {
     
     const [currentStringIndex, setCurrentStringIndex] = useState(0);
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -36,6 +37,8 @@ export default function Typewriter({text, speed = DEFAULT_MS, loop = false, rand
                                 setCurrentTextIndex(0);
                                 setCurrentStringIndex(0);
                             }, delay);
+                        } else {
+                            onFinished();
                         }
                     }
                 }
@@ -49,6 +52,8 @@ export default function Typewriter({text, speed = DEFAULT_MS, loop = false, rand
                         setTimeout( () => {
                             setCurrentTextIndex(0)
                         }, delay);
+                    } else {
+                        onFinished();
                     }
                 }
             }

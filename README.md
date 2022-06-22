@@ -69,3 +69,7 @@ Ms to wait after compleating the word. Useless if loop is set to false or text i
 > cursor?: boolean = true
 
 Set to false if the typewriter should not render a blinking cursor character at the end of the string. *Defaults to true*
+
+> onFinished?: Function = () => void
+
+Callback function after Typewriter animation is complete, never triggers if <code>loop</code> is true. *Defaults to () => void*
