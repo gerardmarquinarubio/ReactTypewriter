@@ -1,4 +1,4 @@
-# React Typewriter
+# React Typewriter ⌨️
 
 ![](https://img.shields.io/badge/-typescript-blue) 
 ![](https://img.shields.io/badge/react-v18.2-%2361DBFB)
