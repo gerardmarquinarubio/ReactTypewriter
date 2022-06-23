@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Typewriter from "./Typewriter";
+import { act } from 'react-dom/test-utils';
 describe('Typewriter', () => {
     describe('should render without crashing', () => {
         it('using text prop', () => {
@@ -30,7 +31,7 @@ describe('Typewriter', () => {
     });
     describe('should trigger events', () => {
         test('onStart', done => {
-            render(React.createElement(Typewriter, { text: "Hello!", onStart: () => { done(); } }));
+            render(React.createElement(Typewriter, { text: "Hello!", onStart: () => { act(() => done()); } }));
         });
         test('onFinished', done => {
             render(React.createElement(Typewriter, { text: "Hello!", onFinished: () => done() }));

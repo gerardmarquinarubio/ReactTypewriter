@@ -33,7 +33,7 @@ describe('Typewriter', () => {
 
     describe('should trigger events', () => {
         test('onStart', done => {
-            render(<Typewriter text="Hello!" onStart={ () => {act( () => done())}} />);
+            render(<Typewriter text="Hello!" onStart={ () => done()} />);
         });
         test('onFinished', done => {
             render(<Typewriter text="Hello!" onFinished={ () => done()} />);
