@@ -2,18 +2,18 @@
 <p align="center">
 <img src="https://img.shields.io/badge/language-typescript-blue?style=flat-square&logo=typescript" /> 
 <img src="https://img.shields.io/badge/react-v18.2-%2361DBFB?style=flat-square&logo=react" />
-<a href="https://github.com/gerardmarquinarubio/ReactTypewriter/releases">
+<a href="https://github.com/gerardmarquinarubio/ReactTypewriter/releases" target="_blank">
 <img src="https://img.shields.io/badge/version-v0.1.8-green?style=flat-square" />
 </a>
-<a href="https://www.npmjs.com/package/react-ts-typewriter">
+<a href="https://www.npmjs.com/package/react-ts-typewriter" target="_blank">
 <img src="https://img.shields.io/badge/package-npm-red?style=flat-square&logo=npm" />
 </a>
-<a href="https://github.com/brillout/awesome-react-components#ui-animation">
+<a href="https://github.com/brillout/awesome-react-components#ui-animation" target="_blank">
 <img src="https://img.shields.io/badge/featured-awesome--react--components-blueviolet?style=flat-square" />
 </a>
 <img src="./usage.gif" />
 </p>
-React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. <a href="https://codesandbox.io/s/react-typewriter-example-mgyclf">Try on codesandbox.io</a>.
+React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. <a href="https://codesandbox.io/s/react-typewriter-example-mgyclf" target="_blank">Try on codesandbox.io</a>.
 
 ## Installation
 
