@@ -7,6 +7,7 @@
 ![](https://img.shields.io/badge/featured-awesome--react--components-blueviolet?style=flat-square)
 
 ![](/usage.gif)
+
 React Typewriter is a simple component that allows you to create a nice "typewriter" effect to any text by simply invoking the component. [Try on codesandbox.io](https://codesandbox.io/s/react-typewriter-example-mgyclf).
 
 ## Installation
