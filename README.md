@@ -30,22 +30,6 @@ export default function myComponent() {
 }
 ```
 
-```tsx
-import Typewriter from 'react-ts-typewriter';
-
-export default function myComponent() {
-    return (
-        <h1>
-            <Typewriter 
-            text={['Hello', 'how', 'are', 'you?']}
-            delay={500}
-            loop={false} 
-            />
-        </h1>
-    )
-}
-```
-
 ## Props
 > text : string | string[]
 
@@ -77,4 +61,4 @@ Callback function after Typewriter animation is complete, never triggers if <cod
 
 > onStart?: Function = () => void
 
-Callback function before Typewriter animation is started on each string. *Defaults to () => void*. 
+Callback function before Typewriter animation is started on each string. *Defaults to () => void*.

@@ -103,7 +103,6 @@ typings/
 .tern-port
 
 test/
-npmtest/
 package-lock.json
 .DS_Store
 
@@ -111,3 +110,4 @@ package-lock.json
 *.jpg
 *.jpeg
 *.png
+src/
