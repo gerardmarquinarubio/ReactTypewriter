@@ -36,34 +36,19 @@ export default function myComponent() {
 ```
 
 ## Props
-> text : string | string[]
 
-Text to display as string or an array of strings. **Required** 
-
-> speed?: number = 30
-
-How long (in ms) does the the typewriter wait after typing one character. *Defaults to 30ms*.
-
-> loop?: boolean = false
-
-Set to true if the typewriter should loop after finishing typing the string(s). *Defaults to false*.
-
-> random?: number = 30
-
-Ms of randomness that should be added after each keystroke. If set to zero then each stroke will strictly take <code>speed</code>ms to complete. *Defaults to 30ms*.
-
-> delay?: number = 30
-
-Ms to wait after compleating the word. Useless if loop is set to false or text is not an array. *Defaults to 30ms*.
-
-> cursor?: boolean = true
-
-Set to false if the typewriter should not render a blinking cursor character at the end of the string. *Defaults to true*
-
-> onFinished?: Function = () => void
-
-Callback function after Typewriter animation is complete, never triggers if <code>loop</code> is true. *Defaults to () => void*
-
-> onStart?: Function = () => void
-
-Callback function before Typewriter animation is started on each string. *Defaults to () => void*.
+<table border="1">
+<thead>
+    <tr><td><b>Prop name</b></td><td><b>Type</b></td><td><b>Description</b></td><td><b>Required</b></td><td><b>Default</b></td></tr>
+</thead>
+<tbody>
+    <tr><td>text</td><td>string | string[]</td><td>Text to display as string or an array of strings</td><td>true</td><td></td></tr>
+    <tr><td>speed</td><td>number</td><td>How long (in ms) does the the typewriter wait after typing one character</td><td>false</td><td>30ms</td></tr>
+    <tr><td>loop</td><td>boolean</td><td>Set to true if the typewriter should loop after finishing typing the string(s)</td><td>false</td><td>false</td></tr>
+    <tr><td>random</td><td>number</td><td>Ms of randomness that should be added after each keystroke. If set to zero then each stroke will strictly take <code>speed</code>ms to complete</td><td>false</td><td>30ms</td></tr>
+    <tr><td>delay</td><td>number</td><td>Ms to wait after compleating the word. Useless if loop is set to false or text is not an array</td><td>false</td><td>30ms</td></tr>
+    <tr><td>cursor</td><td>boolean</td><td>Set to false if the typewriter should not render a blinking cursor character at the end of the string</td><td>false</td><td>true</td></tr>
+    <tr><td>onFinished</td><td>Function</td><td>Callback function after Typewriter animation is complete, never triggers if <code>loop</code> is true</td><td>false</td><td>() => void</td></tr>
+    <tr><td>onStart</td><td>Function</td><td>Callback function before Typewriter animation is started on each string</td><td>false</td><td>() => void</td></tr>
+</tbody>
+</table>
