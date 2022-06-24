@@ -37,7 +37,7 @@ export default function myComponent() {
 
 ## Props
 
-<table border="1">
+<table>
 <thead>
     <tr><td><b>Prop name</b></td><td><b>Type</b></td><td><b>Description</b></td><td><b>Required</b></td><td><b>Default</b></td></tr>
 </thead>
